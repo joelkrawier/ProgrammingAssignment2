@@ -5,6 +5,7 @@
 
 #' Title
 #'
+#' 
 #' @param x 
 #'
 #' @return
@@ -27,8 +28,12 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 
+
 #' Title
 #'
+#' la fonction cacheSolve va utiliser le resultat 
+#' de makecacheMatrix pour calculer l'inverse de la matrice contenue 
+#' dans la liste de résultat de makecacheMatrix
 #' @param x 
 #' @param ... 
 #'
